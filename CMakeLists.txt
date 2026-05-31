@@ -6,3 +6,6 @@ target_compile_features(hello_world PUBLIC cxx_std_23)
 
 add_executable(hello_generator hello_generator.cpp)
 target_compile_features(hello_generator PUBLIC cxx_std_23)
+
+add_executable(hello_concept_functor hello_concept_functor.cpp)
+target_compile_features(hello_concept_functor PUBLIC cxx_std_20)
